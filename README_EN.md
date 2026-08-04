@@ -110,6 +110,7 @@ Current module version: **AM104Q340340LK**. Electrical and mechanical details fo
 - Technical support / product inquiry: <luyu@osptek.com>
 - QQ group (China): **985881096**
 - Website: <https://osptek.com/>
+- For questions or problems, you can also open a GitHub [Issue](https://github.com/osptek/1.04-amoled-340x340-qspi-co5300/issues)
 
 ---
 
