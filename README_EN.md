@@ -46,8 +46,7 @@ Repo id: `1.04-amoled-340x340-qspi-co5300`
 
 <p align="center"><img alt="AM104Q340340LK" src="./images/AM104Q340340LK.png" width="320" /></p>
 
-**Notes:** Module.
-
+**Notes:** With touch (CST820).
 ---
 
 ## How to Switch Branches
