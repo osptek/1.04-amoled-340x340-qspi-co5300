@@ -18,7 +18,6 @@
 - [About](#about)
 - [Versions](#versions)
 - [AM104Q340340LK](#am104q340340lk)
-- [How to Switch Branches](#how-to-switch-branches)
 - [Where to Buy](#where-to-buy)
 - [Support](#support)
 
@@ -28,7 +27,7 @@
 
 This repository holds materials for the **1.04″ 340×340 AMOLED (QSPI · CO5300)** module family.
 
-**`main` is the navigation page** (repository default). Use the table below for a quick scan; click **Details** to jump to the section on this page. For a given version’s full content, switch to that **version branch** (see below).
+The **root README is the navigation page**. Use the table below for a quick scan; open **Full docs** to enter that **part-number folder** under `versions/` (product page, datasheets, and examples live there).
 
 Repo id: `1.04-amoled-340x340-qspi-co5300`
 
@@ -36,26 +35,19 @@ Repo id: `1.04-amoled-340x340-qspi-co5300`
 
 ## Versions
 
-| Version | Image | Notes |
-| ------- | ----- | ----- |
-| AM104Q340340LK | <img alt="AM104Q340340LK" src="./images/AM104Q340340LK.png" width="120" /> | [Details](#am104q340340lk) |
+| Version | Image | Summary | Full docs |
+| ------- | ----- | ------- | --------- |
+| AM104Q340340LK | <img alt="AM104Q340340LK" src="./versions/AM104Q340340LK/images/product.png" width="120" /> | [Summary](#am104q340340lk) | [Full docs](./versions/AM104Q340340LK/) |
 
 ---
 
 ## AM104Q340340LK
 
-<p align="center"><img alt="AM104Q340340LK" src="./images/AM104Q340340LK.png" width="320" /></p>
+<p align="center"><img alt="AM104Q340340LK" src="./versions/AM104Q340340LK/images/product.png" width="320" /></p>
 
 **Notes:** With touch (CST820).
 
----
-
-## How to Switch Branches
-
-Full product materials are on each **version branch**; `main` is navigation only.
-
-- **Web:** open the branch dropdown at the top left of the repository page and select the branch that matches your part number.
-- **CLI:** after cloning, run `git checkout <version-branch>`; if the repo is already local, `git fetch` first, then switch.
+Full product page, datasheets, and examples: [versions/AM104Q340340LK/](./versions/AM104Q340340LK/)
 
 ---
 

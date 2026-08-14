@@ -1,0 +1,20 @@
+
+ // R104A3M-0xx-LCM-InitialCode//
+ // BOE 1.04" 340x340 AMOLED+CO5300 QSPI//
+ // 2024.10.21 Gamma 2.2 //  
+
+SPI_CS=0;SPI_WriteComm(0xFE);SPI_WriteData(0x00);SPI_CS=1;
+SPI_CS=0;SPI_WriteComm(0xC4);SPI_WriteData(0x80);SPI_CS=1;
+SPI_CS=0;SPI_WriteComm(0x3A);SPI_WriteData(0x55);SPI_CS=1;
+SPI_CS=0;SPI_WriteComm(0x35);SPI_WriteData(0x00);SPI_CS=1;
+SPI_CS=0;SPI_WriteComm(0x53);SPI_WriteData(0x20);SPI_CS=1;
+SPI_CS=0;SPI_WriteComm(0x51);SPI_WriteData(0xFF);SPI_CS=1;  //简码
+SPI_CS=0;SPI_WriteComm(0x63);SPI_WriteData(0xFF);SPI_CS=1;
+
+SPI_CS=0;SPI_WriteComm(0x2A);SPI_WriteData(0x00);SPI_WriteData(0x00);SPI_WriteData(0x01);SPI_WriteData(0x53);SPI_CS=1;
+SPI_CS=0;SPI_WriteComm(0x2B);SPI_WriteData(0x00);SPI_WriteData(0x00);SPI_WriteData(0x01);SPI_WriteData(0x53);SPI_CS=1;
+
+SPI_CS=0;SPI_WriteComm(0x11);SPI_CS=1;
+Delay(60);	 
+
+SPI_CS=0;SPI_WriteComm(0x29);SPI_CS=1;
